@@ -64,6 +64,6 @@ function draw() {
 }
 function keyPressed(){
 	if (keyCode === DOWN_ARROW){
-		Matter.Body.isStatic(packageBody, false )
+		Matter.Body.setStatic(packageBody, false )
 	}
 }
